@@ -1,0 +1,45 @@
+/* Landing
+====================== */
+.landing {
+  background-image:url("../images/escheresque_ste.png");
+  background-size:auto;
+  height:100vh;
+  padding-top:25vh;
+}
+
+.landing h1, .landing a{
+  color:ghostwhite;
+  text-decoration:none;
+  opacity:0.9;
+}
+
+.landing h1{
+  margin-bottom:2em;
+}
+
+/* Navbar
+====================== */
+
+
+
+/* About
+====================== */
+.about{
+  height:100vh;
+}
+
+.about img{
+  width:100%;
+}
+
+.about-img{
+  padding-top:4.5em;
+}
+
+/* Media Queries
+====================== */
+@media (max-width:534px){
+  .about-img{
+    padding-top:0;
+  }
+}

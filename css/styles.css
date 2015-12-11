@@ -13,22 +13,45 @@
   opacity:0.9;
 }
 
+.landing a:hover{
+  color:#FF0092;
+}
+
 .landing h1{
   margin-bottom:2em;
 }
 
-/* Navbar
+/* Nav Chevrons
 ====================== */
+.chevron-top{
+  width:100%;
+  text-align:center;
+}
 
+.chevron-top img{
+  width:4em;
+}
+
+.chevron-bottom{
+  width:100%;
+  text-align:center;
+  position:absolute; /* Relative to wrapping div eg. "about" */
+  bottom:0;
+}
+
+.chevron-bottom img{
+  width:4em;
+}
 
 
 /* About
 ====================== */
 .about{
   height:100vh;
+  position:relative;
 }
 
-.about img{
+.about-img img{
   width:100%;
 }
 

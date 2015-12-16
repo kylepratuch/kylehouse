@@ -43,16 +43,16 @@
   width:4em;
 }
 
-
 /* About
 ====================== */
 .about{
-  height:100vh;
+  /*height:100vh;*/
   position:relative;
 }
 
 .about-img img{
   width:100%;
+  border:1px solid darkgray;
 }
 
 .about-img{
@@ -62,7 +62,7 @@
 /* Portfolio
 ====================== */
 .portfolio{
-  height:100vh;
+  /*height:100vh;*/
   position:relative;
 }
 
@@ -71,10 +71,53 @@
   border:1px solid darkgray;
 }
 
+.portfolio img:hover{
+  box-shadow: 0 0 10px #FF0092;
+}
+
+/* Contact
+====================== */
+.contact{
+  /*height:100vh;*/
+  position:relative;
+}
+
+.send-form:active{
+  background: #FF0092;
+  border-color: #FF0092;
+  color:white;
+}
+
+.contact h4{
+  display:inline;
+}
+
+.contact a{
+  color:black;
+}
+
+i {
+  margin-left:1em;
+}
+
+i:hover {
+  color:#FF0092;
+}
+
+input[type="email"]:focus,
+input[type="text"]:focus, 
+textarea:focus{
+  border-color:#FF0092;
+}
+
 /* Media Queries
 ====================== */
 @media (max-width:768px){
   .about-img{
     padding-top:0;
+  }
+
+  .portfolio-row-2{
+    margin-top:0em;
   }
 }

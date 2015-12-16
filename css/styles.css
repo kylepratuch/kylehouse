@@ -59,9 +59,21 @@
   padding-top:4.5em;
 }
 
+/* Portfolio
+====================== */
+.portfolio{
+  height:100vh;
+  position:relative;
+}
+
+.portfolio img{
+  width:100%;
+  border:1px solid darkgray;
+}
+
 /* Media Queries
 ====================== */
-@media (max-width:534px){
+@media (max-width:768px){
   .about-img{
     padding-top:0;
   }
